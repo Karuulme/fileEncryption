@@ -32,19 +32,6 @@ void fileSubdirectories(string firstFilePath,int columnSize = 0) {
 }
 int main()
 {
-    /*
-    fstream dosya;
-    dosya.open("C:/Users/Karuu/Desktop/test/Yeni klasör/.");
-    if (dosya.is_open()) { 
-        cout << "Dosya basari ile acildi." << endl;
-    }
-    else { // Dosya açılırken bir hata oluşursa.
-        cout << "Hata: Dosya acilamadi!\n" << endl;
-    }*/
-
-
-    fileSubdirectories("C:/Users/Karuu/Desktop/socket uygulaması");
-   // fileSubdirectories("C:/Users/Karuu/Desktop/test/Yeni klasör");
-    //FindClose(lpFindFileData);
+    fileSubdirectories("C:/Users/Karuu/Desktop/fileEncryption");
     return 0;
 }
